@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Política de Privacidade — LoveCatson</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #FFFBF8;
+    --text: #2A2320;
+    --text-secondary: #6B5F58;
+    --accent: #FF8C5A;
+    --border: #EFE6DF;
+    --card: #FFFFFF;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1B1613;
+      --text: #F3ECE7;
+      --text-secondary: #B8ADA6;
+      --accent: #FF9E6D;
+      --border: #332B26;
+      --card: #241E1A;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 20px 80px;
+  }
+  h1 {
+    font-size: 28px;
+    margin: 0 0 4px;
+  }
+  .updated {
+    color: var(--text-secondary);
+    font-size: 14px;
+    margin: 0 0 32px;
+  }
+  h2 {
+    font-size: 19px;
+    margin: 36px 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+  p, li { color: var(--text); font-size: 15.5px; }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin: 16px 0;
+  }
+  a { color: var(--accent); }
+  strong { color: var(--text); }
+  footer {
+    margin-top: 48px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+    color: var(--text-secondary);
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Política de Privacidade — LoveCatson</h1>
+  <p class="updated">Última atualização: 5 de agosto de 2026</p>
+
+  <p>
+    O LoveCatson ("nós", "aplicativo") é um app para organização de cuidados com gatos:
+    tarefas, diário de saúde, peso e compartilhamento entre membros de uma mesma casa/família.
+    Esta política explica quais dados coletamos, por que coletamos e como você pode excluí-los.
+  </p>
+
+  <h2>1. Dados que coletamos</h2>
+  <p>Ao criar uma conta e usar o app, coletamos:</p>
+  <ul>
+    <li><strong>Conta:</strong> nome, e-mail e senha (armazenada de forma criptografada, nunca em texto puro). Se você entrar com o Google, recebemos seu identificador de conta Google e e-mail associado.</li>
+    <li><strong>Perfil:</strong> foto de perfil, se você optar por adicionar uma.</li>
+    <li><strong>Dados dos gatos:</strong> nome, raça, data de nascimento, peso, sexo, se é castrado, se tem acesso à rua, e fotos que você adicionar.</li>
+    <li><strong>Diário e saúde:</strong> registros de tarefas, consultas, vacinas, tratamentos, peso ao longo do tempo e anexos (fotos) relacionados.</li>
+    <li><strong>Casa/família:</strong> se você criar ou participar de uma "casa" compartilhada, os dados dos gatos e tarefas dessa casa ficam visíveis para os demais membros.</li>
+    <li><strong>Uso do app:</strong> eventos básicos de uso (ex: telas visitadas) associados a um identificador anônimo, sem nome, e-mail ou outro dado pessoal.</li>
+  </ul>
+
+  <h2>2. Como usamos os dados</h2>
+  <ul>
+    <li>Fornecer as funcionalidades principais do app (tarefas, diário, sincronização entre dispositivos).</li>
+    <li>Permitir o compartilhamento de dados entre membros da mesma casa, quando você optar por isso.</li>
+    <li>Enviar lembretes e notificações que você configurar (ex: tarefas pendentes, resumo diário).</li>
+    <li>Entender uso agregado do app para priorizar melhorias, de forma anônima.</li>
+  </ul>
+  <p>Não vendemos seus dados e não usamos seus dados para publicidade de terceiros.</p>
+
+  <h2>3. Com quem compartilhamos dados</h2>
+  <div class="card">
+    <ul>
+      <li><strong>Membros da sua casa:</strong> gatos, tarefas e diário de uma casa compartilhada ficam visíveis para todos os membros dessa casa.</li>
+      <li><strong>Google:</strong> se você entrar com sua conta Google, a autenticação é processada pelo Google, sujeita à <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">política de privacidade do Google</a>.</li>
+      <li><strong>Cloudflare R2:</strong> fotos que você envia (perfil, gatos, diário) são armazenadas de forma segura na infraestrutura da Cloudflare.</li>
+      <li><strong>Neon (banco de dados):</strong> hospeda o banco de dados do aplicativo.</li>
+      <li><strong>PostHog:</strong> processa eventos de uso anônimos (sem nome, e-mail ou outros dados pessoais identificáveis) para nos ajudar a entender como o app é usado.</li>
+    </ul>
+  </div>
+
+  <h2>4. Exclusão da sua conta e dos seus dados</h2>
+  <p>
+    Você pode excluir sua conta a qualquer momento diretamente no app, em
+    <strong>Perfil → Excluir conta</strong>. A exclusão é permanente e remove seus dados
+    de conta, gatos, tarefas, diário e fotos associadas.
+  </p>
+  <p>
+    Se você for dono(a) de uma casa compartilhada com outros membros, é necessário remover
+    os demais membros antes de excluir sua conta, para que os dados deles não sejam apagados
+    sem aviso.
+  </p>
+  <p>
+    Você também pode solicitar a exclusão de dados entrando em contato pelo e-mail abaixo.
+  </p>
+
+  <h2>5. Segurança</h2>
+  <p>
+    Senhas são armazenadas com hash criptográfico (argon2), a comunicação com o servidor é
+    feita via HTTPS, e o acesso aos dados é protegido por autenticação obrigatória em toda
+    a API.
+  </p>
+
+  <h2>6. Crianças</h2>
+  <p>
+    O LoveCatson não é direcionado a crianças menores de 13 anos e não coletamos
+    intencionalmente dados de crianças.
+  </p>
+
+  <h2>7. Alterações nesta política</h2>
+  <p>
+    Podemos atualizar esta política periodicamente. Mudanças relevantes serão refletidas
+    nesta página com a data de atualização revisada.
+  </p>
+
+  <h2>8. Contato</h2>
+  <p>
+    Dúvidas sobre privacidade ou solicitações de exclusão de dados:
+    <a href="mailto:efraim.dev@gmail.com">efraim.dev@gmail.com</a>
+  </p>
+
+  <footer>
+    LoveCatson — Política de Privacidade
+  </footer>
+</div>
+</body>
+</html>
